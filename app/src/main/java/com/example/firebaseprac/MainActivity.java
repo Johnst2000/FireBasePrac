@@ -88,4 +88,8 @@ public class MainActivity extends AppCompatActivity {
         presionRef.setValue(Float.parseFloat(txt_presion_edit.getText().toString()));
     }
 
+    public void abrirMapa(View view) {
+        android.content.Intent intent = new android.content.Intent(this, actividadMaps.class);
+        startActivity(intent);
+    }
 }

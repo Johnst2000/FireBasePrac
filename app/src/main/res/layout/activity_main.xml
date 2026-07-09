@@ -353,6 +353,15 @@
 
             </LinearLayout>
 
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:onClick="abrirMapa"
+                android:text="Ver Mapa de Monitoreo"
+                android:backgroundTint="#E91E63"
+                android:textColor="#FFFFFF" />
+
         </LinearLayout>
     </ScrollView>
 
